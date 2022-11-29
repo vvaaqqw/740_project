@@ -1,4 +1,5 @@
 # MF740_project
+> 注意eth没有top100cap这个feature
 The goal is to study two research papers:
 
 1.Time-series forecasting of Bitcoin prices using high-dimensional features: a machine learning approach
