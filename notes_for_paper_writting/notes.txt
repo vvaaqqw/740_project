@@ -1,0 +1,17 @@
+用spider。。。里面的爬虫爬去数据放到data文件夹里>>用preprocessing里的文件进行feature selection，放到Data文件夹里>>
+针对第一篇paper
+paper中标黄的是我们新加的用于所有模型的衡量(performance metrics for evaluation)好坏的指标
+我们没有做classcification model， 全部是回归
+我们只做了feature selection这个部分, 没用pca
+我们没有把数据分成三个intervals
+
+btc数据2010/07/17 - 2023/11/01 但我们只用了2016/01/01 - 2023/11/01 来分析，以提高准确率
+eth数据2016/01/01 - 2023/11/01
+ltc数据2012/01/01 - 2023/11/01 我们只用2016/01/01之后的数据
+
+
+我们的目标是用模型去预测30天之后的price，其他不管
+把data分为training, validation, 和testing
+training set 2016/01/01- 2019/12/31
+validation set 2020/01/01 - 2021/05/31
+testing set 2021/06/01 - 2023/11/01
