@@ -3,6 +3,7 @@
 paper中标黄的是我们新加的用于所有模型的衡量(performance metrics for evaluation)好坏的指标
 我们没有做classcification model， 全部是回归
 我们只做了feature selection这个部分, 没用pca
+Feature selection process is based on Pearson correlation, random forest, and variance inflation factor.
 我们没有把数据分成三个intervals
 
 btc数据2010/07/17 - 2023/11/01 但我们只用了2016/01/01 - 2023/11/01 来分析，以提高准确率
