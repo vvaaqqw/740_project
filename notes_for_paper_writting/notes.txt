@@ -16,3 +16,4 @@ ltc数据2012/01/01 - 2023/11/01 我们只用2016/01/01之后的数据
 training set 2016/01/01- 2019/12/31
 validation set 2020/01/01 - 2021/05/31
 testing set 2021/06/01 - 2023/11/01
+我们用randomsearch 来做hyperparameter tuning
