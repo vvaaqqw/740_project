@@ -6,18 +6,19 @@ paper中标黄的是我们新加的用于所有模型的衡量(performance metri
 Feature selection process is based on Pearson correlation, random forest, and variance inflation factor.
 我们没有把数据分成三个intervals
 
-btc数据2010/07/17 - 2023/11/01 但我们只用了2016/01/01 - 2023/11/01 来分析，以提高准确率
-eth数据2016/01/01 - 2023/11/01
-ltc数据2012/01/01 - 2023/11/01 我们只用2016/01/01之后的数据
+btc数据2010/07/17 - 2022/11/29 但我们只用了2016/01/01 - 2022/11/29 来分析，以提高准确率
+eth数据2016/01/01 - 2022/11/29
+ltc数据2012/01/01 - 2022/11/29 我们只用2016/01/01之后的数据
 
 
 我们的目标是用模型去预测30天之后的price，其他不管
 把data分为training, validation, 和testing
 training set 2016/01/01- 2019/12/31
 validation set 2020/01/01 - 2021/05/31
-testing set 2021/06/01 - 2023/11/01
+testing set 2021/06/01 - 2022/11/29
 
 我们只做了ANN, LSTM, GBRT, random forest
+LSTM的结果其实在结尾为basic而不是tune的ipynb文件里，实际是因为没有时间去调参
 其中gbrt和random forest可以照着同文件夹下的report写。
 对每个模型需要汇报r2_oos, mae, rmse, mape, r2
 
