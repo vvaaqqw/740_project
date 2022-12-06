@@ -49,6 +49,3 @@ def plot_feature_importance(imp_df, title):
     sns.barplot(x = 'feature_importance', y = 'feature', data = imp_df, color = 'royalblue') \
        .set_title(title, fontsize = 20)
 
-def mean_absolute_percentage_error(y_true, y_pred): 
-    y_true, y_pred = np.array(y_true), np.array(y_pred)
-    return np.mean(np.abs((y_true - y_pred) / y_true)) * 100
